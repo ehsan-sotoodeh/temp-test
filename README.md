@@ -1,5 +1,5 @@
 ## Terminal Commands
-
+Use node 14.15.4
 1. Install NodeJs from [NodeJs Official Page](https://nodejs.org/en).
 2. Open Terminal
 3. Go to your file project
@@ -8,4 +8,4 @@
 6. And: ```ng serve```
 7. Navigate to `http://localhost:4200/`
 
-### Use node 14.15.4
+### ç
