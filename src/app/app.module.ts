@@ -7,10 +7,9 @@ import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app.routing';
 import { NavbarModule } from './shared/navbar/navbar.module';
 import { FooterModule } from './shared/footer/footer.module';
-
 import { AppComponent } from './app.component';
-
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
+ import  {SidebarModule} from './sidebar/sidebar.module'
 
 @NgModule({
   imports: [
@@ -20,11 +19,12 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
     HttpClientModule,
     NavbarModule,
     FooterModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SidebarModule
   ],
   declarations: [
     AppComponent,
-    AdminLayoutComponent
+    AdminLayoutComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]
